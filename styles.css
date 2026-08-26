@@ -106,7 +106,7 @@ h1 {
 
 .wxluton:hover {
     transform: scale(1.05);
-    box-shadow: 0 0px 360px rgba(7, 4, 184, 1);
+    box-shadow: 0 0px 60px rgba(7, 4, 184, 1);
     overflow: visible;
 }
 
