@@ -1,2 +1,6 @@
 # The Birdbrain Channel Website
-The website for The Birdbrain Channel.
+The GitHub repository for The Birdbrain Channel's website.
+
+## [Main Organization](https://github.com/The-Birdbrain-Channel)
+
+## [Our Community Discord Server](https://discord.gg/bdQfFngqM2)
