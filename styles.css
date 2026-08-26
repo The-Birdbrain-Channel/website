@@ -7,6 +7,34 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* =========================
+   LANDING PAGE
+   ========================= */
+
+.landing-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #111; */
+    background: #2d3589;
+    background: linear-gradient(315deg, #2d3589 0%, #583eb7 100%);
+    color: white;
+}
+
+.watch-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #888;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+
+.watch-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
 
 /* =========================
    HOME PAGE
@@ -21,6 +49,13 @@ body {
     background: #2f0077;
     background: linear-gradient(30deg, #2f0077 0%, #a364e5 100%);
     color: white;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .container {
@@ -109,8 +144,17 @@ h1 {
     background: white;
 }
 
+.home-page .back-button {
+    background: none;
+    color: white;
+}
+
 .back-button:hover {
     background: #e5e5e5;
+}
+
+.home-page .back-button:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
 
 iframe {
