@@ -17,7 +17,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #111;
+    /* background: #111; */
+    background: #2f0077;
+    background: linear-gradient(30deg, #2f0077 0%, #a364e5 100%);
     color: white;
 }
 
@@ -54,7 +56,20 @@ h1 {
 
 .channel:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.75);
+    overflow: visible;
+}
+
+.wxluton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0px 360px rgba(7, 4, 184, 1);
+    overflow: visible;
+}
+
+.tbbchnl:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0px 60px rgb(0, 255, 132);
+    overflow: visible;
 }
 
 .channel img {
