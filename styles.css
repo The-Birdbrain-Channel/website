@@ -142,7 +142,7 @@ h1 {
 
 .localscope:hover {
     transform: scale(1.05);
-    box-shadow: 0 0px 60px rgba(255, 124, 0, 1);
+    box-shadow: 0 0px 60px rgba(255, 170, 0, 1);
     overflow: visible;
 }
 
