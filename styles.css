@@ -113,36 +113,36 @@ h1 {
 
     transition:
         transform 0.2s ease,
-        box-shadow 0.2s ease;
+        filter 0.2s ease;
 }
 
 .channel:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.75);
+    filter: drop-shadow(0 8px 15px rgba(255, 255, 255, 0.75));
     overflow: visible;
 }
 
 .wxluton:hover {
     transform: scale(1.05);
-    box-shadow: 0 0px 60px rgba(7, 4, 184, 1);
+    filter: drop-shadow(0 0px 30px rgba(7, 4, 184, 1));
     overflow: visible;
 }
 
 .tbbchnl:hover {
     transform: scale(1.05);
-    box-shadow: 0 0px 60px rgb(0, 255, 132);
+    filter: drop-shadow(0 0px 30px rgb(0, 255, 132));
     overflow: visible;
 }
 
 .kwsf-ip:hover {
     transform: scale(1.05);
-    box-shadow: 0 0px 60px rgba(50, 49, 192, 1);
+    filter: drop-shadow(0 0px 15px rgba(50, 49, 192, 1));
     overflow: visible;
 }
 
 .localscope:hover {
     transform: scale(1.05);
-    box-shadow: 0 0px 60px rgba(255, 170, 0, 1);
+    filter: drop-shadow(0 0px 30px rgba(255, 170, 0, 1));
     overflow: visible;
 }
 
