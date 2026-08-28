@@ -52,6 +52,24 @@ body {
     background: rgba(255, 255, 255, 0.1);
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Clear floats after the columns */
+.partners:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* =========================
    HOME PAGE
    ========================= */
