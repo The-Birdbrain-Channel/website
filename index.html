@@ -11,9 +11,7 @@
 </head>
 
 <body class="landing-page">
-
     <main class="container">
-
         <div class="header-bar">
             <h1>The Birdbrain Channel (and partners)</h1>
 
@@ -21,7 +19,6 @@
                 Watch us or our partners!
             </button>
         </div><br><br>
-
         <div>
             <h1>Who are we?</h1>
             <h2>We are an indie channel that streams a range of content:</h2>
@@ -50,8 +47,21 @@
                 </div>
             </div>
         </div>
-
     </main>
-
+    <script>
+    (function(d,t) {
+        var BASE_URL="https://hc.windevsystems.us";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+        window.chatwootSDK.run({
+            websiteToken: 'Z3FLuFgdnZZEi9oe6GmhG4i1',
+            baseUrl: BASE_URL
+        })
+        }
+    })(document,"script");
+    </script>
 </body>
 </html>
